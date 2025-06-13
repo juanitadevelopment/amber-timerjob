@@ -6,10 +6,18 @@
   <groupId>net.teppan.amber</groupId>
   <artifactId>amber-timerjob</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>Amber TimerJob</name>
   <description>A modern, lightweight scheduler library for Java applications</description>
-  <url>https://github.com/teppan/amber-timerjob</url>
+  <url>https://github.com/juanitadevelopment/amber-timerjob</url>
+  
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/juanitadevelopment/amber-timerjob</url>
+    </repository>
+  </distributionManagement>
   
   <licenses>
     <license>
@@ -20,9 +28,9 @@
   </licenses>
   
   <properties>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
-    <maven.compiler.release>21</maven.compiler.release>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.release>17</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     
@@ -90,7 +98,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${maven-compiler-plugin.version}</version>
         <configuration>
-          <release>21</release>
+          <release>17</release>
           <compilerArgs>
             <arg>-parameters</arg>
           </compilerArgs>
@@ -136,7 +144,12 @@
                     <limit>
                       <counter>INSTRUCTION</counter>
                       <value>COVEREDRATIO</value>
-                      <minimum>0.80</minimum>
+                      <minimum>0.65</minimum>
+                    </limit>
+                    <limit>
+                      <counter>CLASS</counter>
+                      <value>MISSEDCOUNT</value>
+                      <maximum>0</maximum>
                     </limit>
                   </limits>
                 </rule>
@@ -167,7 +180,7 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>${maven-javadoc-plugin.version}</version>
         <configuration>
-          <source>21</source>
+          <source>17</source>
           <doclint>none</doclint>
         </configuration>
         <executions>

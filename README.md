@@ -1,7 +1,7 @@
 # Amber TimerJob
 
 [![Maven Central](https://img.shields.io/maven-central/v/net.teppan.amber/amber-timerjob.svg)](https://search.maven.org/artifact/net.teppan.amber/amber-timerjob)
-[![Java Version](https://img.shields.io/badge/Java-21%2B-brightgreen.svg)](https://openjdk.java.net/)
+[![Java Version](https://img.shields.io/badge/Java-17%2B-brightgreen.svg)](https://openjdk.java.net/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://github.com/teppan/amber-timerjob/workflows/CI/badge.svg)](https://github.com/teppan/amber-timerjob/actions)
 
@@ -240,7 +240,7 @@ See the [examples](examples/) directory for complete working examples:
 
 ## 🛠️ Requirements
 
-- Java 21 or higher
+- Java 17 or higher
 - SLF4J for logging
 
 ## 🤝 Contributing
