@@ -6,10 +6,18 @@
   <groupId>net.teppan.amber</groupId>
   <artifactId>amber-timerjob</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>Amber TimerJob</name>
   <description>A modern, lightweight scheduler library for Java applications</description>
-  <url>https://github.com/teppan/amber-timerjob</url>
+  <url>https://github.com/juanitadevelopment/amber-timerjob</url>
+  
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/juanitadevelopment/amber-timerjob</url>
+    </repository>
+  </distributionManagement>
   
   <licenses>
     <license>
