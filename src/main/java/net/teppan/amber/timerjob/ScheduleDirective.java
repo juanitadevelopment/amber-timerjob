@@ -29,7 +29,7 @@ import java.util.Set;
  * @param locale locale for execution
  * 
  * @since 1.0
- * @author Amber TimerJob
+ * @author Juanita Development
  */
 public record ScheduleDirective(
     String originalDirective,

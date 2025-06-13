@@ -16,7 +16,7 @@ import java.util.TimerTask;
  * cron-style scheduling.</p>
  * 
  * @since 1.0
- * @author Amber TimerJob
+ * @author Juanita Development
  */
 public final class ScheduleExecutor {
     

@@ -1,6 +1,6 @@
-# Contributing to Amber TimerJob
+# Contributing to Juanita Amber TimerJob
 
-Thank you for considering contributing to Amber TimerJob! We welcome contributions from everyone.
+Thank you for considering contributing to Juanita Amber TimerJob! We welcome contributions from everyone.
 
 ## 🤝 How to Contribute
 
@@ -184,7 +184,7 @@ We follow [Semantic Versioning](https://semver.org/):
 
 ## 📄 License
 
-By contributing to Amber TimerJob, you agree that your contributions will be licensed under the Apache License 2.0.
+By contributing to Juanita Amber TimerJob, you agree that your contributions will be licensed under the Apache License 2.0.
 
 ## 🙋‍♀️ Getting Help
 
@@ -207,4 +207,4 @@ Check our [project roadmap](https://github.com/teppan/amber-timerjob/projects) t
 
 ---
 
-Thank you for contributing to Amber TimerJob! 🚀 
+Thank you for contributing to Juanita Amber TimerJob! 🚀 

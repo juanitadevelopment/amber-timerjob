@@ -1,7 +1,5 @@
 package net.teppan.amber.timerjob;
 
-import org.slf4j.Logger;
-
 import java.time.ZoneId;
 import java.util.Locale;
 import java.util.Optional;
@@ -10,8 +8,10 @@ import java.util.TimerTask;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
+import org.slf4j.Logger;
+
 /**
- * Abstract base class for all scheduled timer jobs in the Amber TimerJob framework.
+ * Abstract base class for all scheduled timer jobs in the Juanita Amber TimerJob framework.
  * 
  * <p>TimerJob provides a modern, flexible scheduling system that supports various
  * schedule formats including interval-based, time-based, date-based, and cron-style
@@ -63,7 +63,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * }</pre>
  * 
  * @since 1.0
- * @author Amber TimerJob
+ * @author Juanita Development
  */
 public abstract class TimerJob extends TimerTask {
     
