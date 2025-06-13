@@ -52,7 +52,7 @@ jobs:
         
     - name: Check coverage threshold
       if: matrix.java-version == 21
-      run: mvn jacoco:check -B
+      run: mvn verify -B
 
   build:
     name: Build and Package
