@@ -52,7 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - JaCoCo code coverage reporting
 
 ### Dependencies
-- Java 21+ (baseline requirement)
+- Java 17+ (baseline requirement, supports Java 17 LTS and Java 21 LTS)
 - SLF4J API 2.0.9 (logging)
 - JUnit 5.10.0 (testing)
 - Mockito 5.5.0 (testing)
