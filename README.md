@@ -1,4 +1,4 @@
-# Amber TimerJob
+# Juanita Amber TimerJob
 
 [![Maven Central](https://img.shields.io/maven-central/v/net.teppan.amber/amber-timerjob.svg)](https://search.maven.org/artifact/net.teppan.amber/amber-timerjob)
 [![Java Version](https://img.shields.io/badge/Java-17%2B-brightgreen.svg)](https://openjdk.java.net/)
@@ -47,7 +47,7 @@ import java.util.Locale;
 public class MyJob extends TimerJob {
     @Override
     protected void executeJob() throws Exception {
-        getLogger().info("Hello from Amber TimerJob!");
+        getLogger().info("Hello from Juanita Amber TimerJob!");
         // Your business logic here
     }
 }

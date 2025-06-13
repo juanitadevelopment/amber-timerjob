@@ -35,7 +35,7 @@ import java.util.regex.Pattern;
  * 15,45 * * * * - At 15 and 45 minutes past each hour
  * 
  * @since 1.0
- * @author Amber TimerJob
+ * @author Juanita Development
  */
 public final class CronExpression {
     

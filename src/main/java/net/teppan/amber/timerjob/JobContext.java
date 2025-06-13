@@ -1,9 +1,9 @@
 package net.teppan.amber.timerjob;
 
-import org.slf4j.Logger;
-
 import java.util.Optional;
 import java.util.Properties;
+
+import org.slf4j.Logger;
 
 /**
  * Context interface for TimerJob execution environment.
@@ -12,7 +12,7 @@ import java.util.Properties;
  * execution environment resources needed by TimerJob implementations.</p>
  * 
  * @since 1.0
- * @author Amber TimerJob
+ * @author Juanita Development
  */
 public interface JobContext {
     

@@ -11,7 +11,7 @@ package net.teppan.amber.timerjob;
  * </ul>
  * 
  * @since 1.0
- * @author Amber TimerJob
+ * @author Juanita Development
  */
 public class SchedulingException extends RuntimeException {
     
